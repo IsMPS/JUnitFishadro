@@ -186,4 +186,8 @@ public class MenuPrincipal {
 			}
 		});
 	}
+	
+	public String getNombre() {
+		return lblNombre.getText();
+	}
 }

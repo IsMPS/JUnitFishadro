@@ -34,7 +34,7 @@ public class Cesta {
 	private JButton btnProdAnterior;
 	private JButton btnSiguiente;
 	private double total;
-
+	
 	/**
 	 * Create the application.
 	 */
@@ -60,8 +60,12 @@ public class Cesta {
 
 		configureListeners();
 	}
+	
+	public double getTotal() {
+		return total;
+	}
 
-	private void configureUIComponents() {
+	public void configureUIComponents() {
 
 		Producto p1 = Almacen.cesta.get(nProducto);
 
